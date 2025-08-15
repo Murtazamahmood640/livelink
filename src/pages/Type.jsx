@@ -1,6 +1,6 @@
 import "../assets/Css/Type.css"
-import Hero from "../components/types/Hero"
-import Types from "../components/types/Types"
+import Hero from "../components/Types/Hero"
+import Types from "../components/Types/Types"
 
 const TypesPage = () => {
   return (
