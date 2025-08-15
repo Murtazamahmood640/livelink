@@ -1,0 +1,166 @@
+/* Base scroll animation styles */
+.scroll-animate {
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+}
+
+.scroll-animate.animate-in {
+  opacity: 1;
+}
+
+/* Fade In Up Animation */
+.scroll-animate.fadeInUp {
+  transform: translateY(50px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.scroll-animate.fadeInUp.animate-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Fade In Left Animation */
+.scroll-animate.fadeInLeft {
+  transform: translateX(-50px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.scroll-animate.fadeInLeft.animate-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Fade In Right Animation */
+.scroll-animate.fadeInRight {
+  transform: translateX(50px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.scroll-animate.fadeInRight.animate-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Scale In Animation */
+.scroll-animate.scaleIn {
+  transform: scale(0.8);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.scroll-animate.scaleIn.animate-in {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Slide In Down Animation */
+.scroll-animate.slideInDown {
+  transform: translateY(-50px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.scroll-animate.slideInDown.animate-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Rotate In Animation */
+.scroll-animate.rotateIn {
+  transform: rotate(-10deg) scale(0.8);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.scroll-animate.rotateIn.animate-in {
+  opacity: 1;
+  transform: rotate(0deg) scale(1);
+}
+
+/* Flip In X Animation */
+.scroll-animate.flipInX {
+  transform: perspective(400px) rotateX(-90deg);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.scroll-animate.flipInX.animate-in {
+  opacity: 1;
+  transform: perspective(400px) rotateX(0deg);
+}
+
+/* Bounce In Animation */
+.scroll-animate.bounceIn {
+  transform: scale(0.3);
+  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.scroll-animate.bounceIn.animate-in {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Zoom In Animation */
+.scroll-animate.zoomIn {
+  transform: scale(0);
+  transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.scroll-animate.zoomIn.animate-in {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Stagger Animation Classes */
+.stagger-container .scroll-animate:nth-child(1) {
+  animation-delay: 0ms;
+}
+.stagger-container .scroll-animate:nth-child(2) {
+  animation-delay: 100ms;
+}
+.stagger-container .scroll-animate:nth-child(3) {
+  animation-delay: 200ms;
+}
+.stagger-container .scroll-animate:nth-child(4) {
+  animation-delay: 300ms;
+}
+.stagger-container .scroll-animate:nth-child(5) {
+  animation-delay: 400ms;
+}
+.stagger-container .scroll-animate:nth-child(6) {
+  animation-delay: 500ms;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .scroll-animate {
+    transition: opacity 0.3s ease-out;
+    transform: none !important;
+  }
+
+  .scroll-animate.animate-in {
+    opacity: 1;
+  }
+}
+
+/* Custom animation delays */
+.delay-100 {
+  animation-delay: 100ms;
+}
+.delay-200 {
+  animation-delay: 200ms;
+}
+.delay-300 {
+  animation-delay: 300ms;
+}
+.delay-400 {
+  animation-delay: 400ms;
+}
+.delay-500 {
+  animation-delay: 500ms;
+}
+.delay-600 {
+  animation-delay: 600ms;
+}
+.delay-700 {
+  animation-delay: 700ms;
+}
+.delay-800 {
+  animation-delay: 800ms;
+}

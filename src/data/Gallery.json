@@ -1,0 +1,38 @@
+[
+    {
+      "tab": "team",
+      "img": "src/assets/Images/gamb1.jpg",
+      "title": "Emergency Response Team",
+      "desc": "Professional emergency medical services"
+    },
+    {
+      "tab": "fleet",
+      "img": "src/assets/Images/gamb2.jpg",
+      "title": "Modern Ambulance Fleet",
+      "desc": "Our state-of-the-art ambulance fleet"
+    },
+    {
+      "tab": "equipment",
+      "img": "src/assets/Images/gamb3.jpg",
+      "title": "Advanced Medical Equipment",
+      "desc": "Cutting-edge medical technology"
+    },
+    {
+      "tab": "services",
+      "img": "src/assets/Images/gamb4.jpg",
+      "title": "24/7 Emergency Services",
+      "desc": "Available around the clock"
+    },
+    {
+      "tab": "services",
+      "img": "src/assets/Images/gamb5.jpg",
+      "title": "Patient Care Excellence",
+      "desc": "Dedicated to superior patient care"
+    },
+    {
+      "tab": "services",
+      "img": "src/assets/Images/gamb6.jpg",
+      "title": "Hospital Partnership",
+      "desc": "Collaborating with leading hospitals"
+    }
+  ]

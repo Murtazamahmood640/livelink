@@ -1,0 +1,94 @@
+[
+    {
+        "id": 1,
+        "image": "src/assets/Images/ambulance1.jpg",
+        "status": "available",
+        "title": "Basic Life Support (BLS)",
+        "location": "Downtown Medical Center",
+        "features": [
+            "Basic medical equipment",
+            "EMT personnel",
+            "Oxygen support"
+        ],
+        "moreFeaturesCount": 1,
+        "price": "150",
+        "time": "8-12"
+    },
+    {
+        "id": 2,
+        "image": "src/assets/Images/ambulance2.jpg",
+        "status": "available",
+        "title": "Advanced Life Support (ALS)",
+        "location": "City General Hospital",
+        "features": [
+            "Advanced cardiac monitors",
+            "Paramedic team",
+            "IV medications"
+        ],
+        "moreFeaturesCount": 2,
+        "price": "250",
+        "time": "6-10"
+    },
+    {
+        "id": 3,
+        "image": "src/assets/Images/ambulance3.jpg",
+        "status": "on-call",
+        "title": "Critical Care Transport",
+        "location": "Regional Trauma Center",
+        "features": [
+            "ICU level equipment",
+            "Critical care specialists",
+            "Mechanical ventilation"
+        ],
+        "moreFeaturesCount": 2,
+        "price": "400",
+        "time": "4-8"
+    }
+    ,
+    {
+        "id": 4,
+        "image": "src/assets/Images/ambulance4.jpg",
+        "status": "on-call",
+        "title": "Critical Care Transport",
+        "location": "Regional Trauma Center",
+        "features": [
+            "ICU level equipment",
+            "Critical care specialists",
+            "Mechanical ventilation"
+        ],
+        "moreFeaturesCount": 2,
+        "price": "400",
+        "time": "4-8"
+    }
+    ,
+    {
+        "id": 5,
+        "image": "src/assets/Images/ambulance5.jpg",
+        "status": "on-call",
+        "title": "Critical Care Transport",
+        "location": "Regional Trauma Center",
+        "features": [
+            "ICU level equipment",
+            "Critical care specialists",
+            "Mechanical ventilation"
+        ],
+        "moreFeaturesCount": 2,
+        "price": "400",
+        "time": "4-8"
+    },
+    {
+        "id": 5,
+        "image": "src/assets/Images/ambulance6.jpg",
+        "status": "on-call",
+        "title": "Critical Care Transport",
+        "location": "Regional Trauma Center",
+        "features": [
+            "ICU level equipment",
+            "Critical care specialists",
+            "Mechanical ventilation"
+        ],
+        "moreFeaturesCount": 2,
+        "price": "400",
+        "time": "4-8"
+    }
+]
